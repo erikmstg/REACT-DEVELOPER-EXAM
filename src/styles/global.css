@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('../fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('../fonts/TitilliumWeb-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+	font-family: 'Titillium Web';
+  color: #1d2226;
+  margin: 0;
+}
+
+* {
+  font-family: 'Titillium Web' !important;
+}
+
+.index .MuiCardHeader-subheader {
+  color: #fff;
+}
+
+.index .search input, .index .search svg {
+  color: #fff;
+}
+
+.index .MuiTabs-root .Mui-selected, .detail .MuiTabs-root .Mui-selected {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+label, input, select {
+  font-size: 0.8em !important;
+}
+
+.input-number-format {
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #0000006b;
+  padding: 3px 0;
+}
+
+.MuiListItemButton-root.Mui-selected {
+  background-color: #132f614d !important;
+}
+
+.car-splide-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.splide__pagination {
+  bottom: 3em;
+}

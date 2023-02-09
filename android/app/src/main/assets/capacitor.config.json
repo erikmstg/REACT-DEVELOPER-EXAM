@@ -1,0 +1,17 @@
+{
+	"appId": "com.mobil.lapak",
+	"appName": "Lapak Mobil",
+	"webDir": "public",
+	"bundledWebRuntime": false,
+	"server": {
+		"allowNavigation": [
+			"us.izzibook.co.id"
+		]
+	},
+	"plugins": {
+		"Keyboard": {
+			"resize": "none",
+			"resizeOnFullScreen": "false"
+		}
+	}
+}
